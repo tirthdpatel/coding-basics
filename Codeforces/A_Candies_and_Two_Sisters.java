@@ -18,6 +18,6 @@ public class A_Candies_and_Two_Sisters {
             } else {
                 System.out.println((n - 1) / 2);
             }
-        }
+        t--;}
     }
 }
