@@ -8,13 +8,13 @@ public class B_Food_Buying{
         double a = sc.nextDouble();
      int x=0;
      int y=0;
-   
      x=x+ (int)a;
      while((int)a>0){
       
       y=(int)a;
-        a=a-y + a/10;
-        x=x+ (int)a;
+        a=a-(int)y + a/10;
+        y=(int)a;
+        x=x+y;
      }
      System.out.println(x);
        }
