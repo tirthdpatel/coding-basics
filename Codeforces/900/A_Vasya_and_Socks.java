@@ -8,12 +8,12 @@ public class A_Vasya_and_Socks{
         int n = sc.nextInt();
         int m = sc.nextInt();
         int x = n;
-        for (int i = 1; i <= n; i++) {
+        for (int i = 1; i <= x ; i++) {
             if(i%m==0){
                 x=x+1;
             }
 
         }
-        Sout
+        System.out.println(x);
     }
 }
